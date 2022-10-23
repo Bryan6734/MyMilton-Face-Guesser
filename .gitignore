@@ -1,4 +1,3 @@
 assets/
-# Project exclude paths
 /venv/
 *.json
