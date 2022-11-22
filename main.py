@@ -52,7 +52,6 @@ def scrape_student_data():
     #
     # students = [Student(name, image_url, f"assets/2025/{idx}-profile.png") for idx, (name, image_url) in enumerate(
     # zip(names, image_urls))] dump_student_data(students, "students_2025.json")
-
 def quiz():
     with open("students_2025.json", "r") as f:
         students = [Student(student["name"], student["image_url"], student["image_path"]) for student in json.load(f)]
